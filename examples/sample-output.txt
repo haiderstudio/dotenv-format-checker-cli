@@ -1,0 +1,10 @@
+OK — 1 file(s) checked, .env files are well formed.
+FAIL examples/bad-format.env:2: spaces around '='
+FAIL examples/bad-format.env:2: key 'app_port' has a lowercase letter
+FAIL examples/bad-format.env:3: empty key
+FAIL examples/bad-format.env:4: unquoted value has a space
+FAIL examples/bad-format.env:5: line has no '='
+FAIL examples/bad-format.env:6: unterminated quote in value
+Checked 1 file(s), 6 problem(s) in 1 file(s).
+FAIL examples/duplicates.env:3: duplicate key 'APP_NAME'
+Checked 1 file(s), 1 problem(s) in 1 file(s).
